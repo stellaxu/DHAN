@@ -1,9 +1,13 @@
-#DHAN utilisation manual
-##Data preparation
+DHAN utilisation manual
+======================
 
+#Data preparation
+-----------------
 ##Train
+-----------------
 
 ##Test
+-----------------
 python train_han_batch_nor.py --mode=test --buckets=[dataset folder] --checkpointDir=[checkpoint folder] --testOutputDir=[test output store folder,default is ./]<br> 
 
 Will generate two pkl under testOutputDir:test_output.pkl,embedding.pkl <br>  
@@ -24,7 +28,8 @@ in embedding.pkl
 [1] cat embedding<br>  
 
 
-draw auc:<br>  
+##Auc draw
+---------------
 python auc_draw.py --input_file=[std_out.txt] --input_file_din=[std_out.txt]<br>  
 output:<br>  
 train_loss.png<br>  
