@@ -1,16 +1,16 @@
 DHAN utilisation manual
 ======================
 
-#Data preparation
+Data preparation
 -----------------
-##Train
+Train
 -----------------
 
-##Test
+Test
 -----------------
 python train_han_batch_nor.py --mode=test --buckets=[dataset folder] --checkpointDir=[checkpoint folder] --testOutputDir=[test output store folder,default is ./]<br> 
 
-Will generate two pkl under testOutputDir:test_output.pkl,embedding.pkl <br>  
+This will generate two pkl under testOutputDir:test_output.pkl and embedding.pkl <br>  
 In test_output.pkl: one list including all test result,within each element:<br>  
 [0] positive sample score<br>  
 [1] negative sample score<br>  
@@ -28,7 +28,7 @@ in embedding.pkl
 [1] cat embedding<br>  
 
 
-##Auc draw
+Auc draw
 ---------------
 python auc_draw.py --input_file=[std_out.txt] --input_file_din=[std_out.txt]<br>  
 output:<br>  
