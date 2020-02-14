@@ -1,0 +1,1224 @@
+start launching tensorflow job
+./._dinHAN最终版本
+dinHAN最终版本/
+dinHAN最终版本/._model_dice.py
+dinHAN最终版本/model_dice.py
+dinHAN最终版本/._.DS_Store
+dinHAN最终版本/.DS_Store
+dinHAN最终版本/model_han_batch_nor.pyc
+dinHAN最终版本/._train_han_cat_encoder.py
+dinHAN最终版本/train_han_cat_encoder.py
+dinHAN最终版本/._train_han_batch_nor.py
+dinHAN最终版本/train_han_batch_nor.py
+dinHAN最终版本/model_han_removequerykey.py
+dinHAN最终版本/._Dice.py
+dinHAN最终版本/Dice.py
+dinHAN最终版本/__pycache__/
+dinHAN最终版本/test.py
+dinHAN最终版本/._train_han.py
+dinHAN最终版本/train_han.py
+dinHAN最终版本/._model.py
+dinHAN最终版本/model.py
+dinHAN最终版本/._train_han_1.py
+dinHAN最终版本/train_han_1.py
+dinHAN最终版本/._model_han_cat_encode.py
+dinHAN最终版本/model_han_cat_encode.py
+dinHAN最终版本/._model_han_batch_nor.py
+dinHAN最终版本/model_han_batch_nor.py
+dinHAN最终版本/log.txt
+dinHAN最终版本/._model_hierarchical.py
+dinHAN最终版本/model_hierarchical.py
+dinHAN最终版本/model_han_1.py
+dinHAN最终版本/Dice.pyc
+dinHAN最终版本/._input.py
+dinHAN最终版本/input.py
+dinHAN最终版本/._train.py
+dinHAN最终版本/train.py
+dinHAN最终版本/._train_han_removequerykey.py
+dinHAN最终版本/train_han_removequerykey.py
+dinHAN最终版本/._din.tar.gz
+dinHAN最终版本/din.tar.gz
+dinHAN最终版本/._build_dataset.py
+dinHAN最终版本/build_dataset.py
+dinHAN最终版本/._log_din
+dinHAN最终版本/log_din
+dinHAN最终版本/._log_din_dice
+dinHAN最终版本/log_din_dice
+dinHAN最终版本/input.pyc
+dinHAN最终版本/model_han.py
+dinHAN最终版本/__pycache__/model.cpython-35.pyc
+dinHAN最终版本/__pycache__/model_han.cpython-35.pyc
+dinHAN最终版本/__pycache__/Dice.cpython-35.pyc
+dinHAN最终版本/__pycache__/input.cpython-35.pyc
+oss://lzd-ds-minishop/chenhai/raw_data/kindle_din_sample_small/
+dataset_file is oss://lzd-ds-minishop/chenhai/raw_data/kindle_din_sample_small/dataset.pkl
+('train_set', (43592, [8488, 4082, 4759, 5409, 6742, 7530, 3729, 4791, 18164, 12657, 19844, 24005], 22410, 1), 1159078)
+('train_set shape', <type 'list'>)
+('test_set', (50344, [18667, 19420, 24058, 28953, 28621, 21586, 31007, 26854, 16561, 31925, 1441], (25698, 7208)), 62557)
+('test_set shape', <type 'list'>)
+('cate_list', 35, (40241,))
+('cate_list shape', <type 'numpy.ndarray'>)
+('user_count', 65599, 'item_count', 40241, 'cate_count', 48)
+outputs is Tensor("Reshape_3:0", shape=(?, 1, ?), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_1:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_4:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_1:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_3:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_1:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_6:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_9:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_2:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_6:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_2:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_11:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_14:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_3:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_9:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_3:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_16:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_19:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_4:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_12:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_4:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_21:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_24:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_5:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_15:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_5:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_26:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_29:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_6:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_18:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_6:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_31:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_34:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_7:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_21:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_7:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_36:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_39:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_8:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_24:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_8:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_41:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_44:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_9:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_27:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_9:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_46:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_49:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_10:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_30:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_10:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_51:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_54:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_11:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_33:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_11:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_56:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_59:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_12:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_36:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_12:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_61:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_64:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_13:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_39:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_13:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_66:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_69:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_14:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_42:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_14:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_71:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_74:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_15:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_45:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_15:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_76:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_79:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_16:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_48:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_16:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_81:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_84:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_17:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_51:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_17:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_86:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_89:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_18:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_54:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_18:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_91:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_94:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_19:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_57:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_19:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_96:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_99:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_20:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_60:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_20:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_101:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_104:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_21:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_63:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_21:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_106:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_109:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_22:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_66:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_22:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_111:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_114:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_23:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_69:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_23:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_116:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_119:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_24:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_72:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_24:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_121:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_124:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_25:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_75:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_25:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_126:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_129:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_26:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_78:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_26:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_131:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_134:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_27:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_81:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_27:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_136:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_139:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_28:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_84:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_28:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_141:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_144:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_29:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_87:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_29:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_146:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_149:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_30:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_90:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_30:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_151:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_154:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_31:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_93:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_31:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_156:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_159:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_32:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_96:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_32:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_161:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_164:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_33:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_99:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_33:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_166:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_169:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_34:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_102:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_34:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_171:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_174:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_35:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_105:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_35:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_176:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_179:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_36:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_108:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_36:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_181:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_184:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_37:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_111:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_37:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_186:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_189:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_38:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_114:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_38:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_191:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_194:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_39:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_117:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_39:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_196:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_199:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_40:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_120:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_40:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_201:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_204:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_41:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_123:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_41:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_206:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_209:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_42:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_126:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_42:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_211:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_214:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_43:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_129:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_43:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_216:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_219:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_44:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_132:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_44:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_221:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_224:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_45:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_135:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_45:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_226:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_229:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_46:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_138:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_46:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_231:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_234:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_47:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_141:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_47:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_236:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_239:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_48:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_144:0", shape=(?, ?, 128), dtype=float32)
+hist_i_cat is Tensor("concat_97:0", shape=(?, 48, 128), dtype=float32)
+hist_i_raw is Tensor("MatMul_48:0", shape=(?, 1, 128), dtype=float32)
+outputs is Tensor("Reshape_11:0", shape=(?, 1, ?), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_48:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_243:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_246:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_51:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_149:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_49:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_248:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_251:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_52:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_152:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_50:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_253:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_256:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_53:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_155:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_51:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_258:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_261:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_54:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_158:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_52:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_263:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_266:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_55:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_161:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_53:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_268:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_271:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_56:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_164:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_54:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_273:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_276:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_57:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_167:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_55:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_278:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_281:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_58:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_170:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_56:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_283:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_286:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_59:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_173:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_57:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_288:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_291:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_60:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_176:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_58:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_293:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_296:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_61:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_179:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_59:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_298:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_301:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_62:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_182:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_60:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_303:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_306:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_63:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_185:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_61:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_308:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_311:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_64:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_188:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_62:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_313:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_316:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_65:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_191:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_63:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_318:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_321:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_66:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_194:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_64:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_323:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_326:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_67:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_197:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_65:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_328:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_331:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_68:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_200:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_66:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_333:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_336:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_69:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_203:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_67:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_338:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_341:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_70:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_206:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_68:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_343:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_346:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_71:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_209:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_69:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_348:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_351:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_72:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_212:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_70:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_353:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_356:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_73:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_215:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_71:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_358:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_361:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_74:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_218:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_72:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_363:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_366:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_75:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_221:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_73:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_368:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_371:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_76:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_224:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_74:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_373:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_376:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_77:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_227:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_75:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_378:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_381:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_78:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_230:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_76:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_383:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_386:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_79:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_233:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_77:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_388:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_391:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_80:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_236:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_78:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_393:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_396:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_81:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_239:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_79:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_398:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_401:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_82:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_242:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_80:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_403:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_406:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_83:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_245:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_81:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_408:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_411:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_84:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_248:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_82:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_413:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_416:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_85:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_251:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_83:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_418:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_421:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_86:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_254:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_84:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_423:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_426:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_87:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_257:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_85:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_428:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_431:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_88:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_260:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_86:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_433:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_436:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_89:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_263:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_87:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_438:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_441:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_90:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_266:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_88:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_443:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_446:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_91:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_269:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_89:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_448:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_451:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_92:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_272:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_90:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_453:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_456:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_93:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_275:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_91:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_458:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_461:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_94:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_278:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_92:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_463:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_466:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_95:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_281:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_93:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_468:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_471:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_96:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_284:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_94:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_473:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_476:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_97:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_287:0", shape=(?, ?, 128), dtype=float32)
+cate_idx is Tensor("Gather_4:0", shape=(?, ?), dtype=int64)
+idx_org is Tensor("Equal_95:0", shape=(?, ?), dtype=bool)
+idx is Tensor("ExpandDims_478:0", shape=(?, 1, ?), dtype=bool)
+weights is Tensor("ExpandDims_481:0", shape=(?, 1, ?), dtype=float32)
+idx_key is Tensor("Tile_98:0", shape=(?, ?, 128), dtype=bool)
+ks is Tensor("Select_290:0", shape=(?, ?, 128), dtype=float32)
+[None, 256]
+[None, 256]
+[None, 128]
+[None, 128]
+BATCH_NOR_Epoch 0 Global_step 1000	Train_loss: 0.6974	Eval_GAUC: 0.4996	Eval_AUC: 0.5760	Test_loss: 0.6923
+('cost', 85.34914708137512, 'best_auc', 0.4995923717645801)
+BATCH_NOR_Epoch 0 Global_step 2000	Train_loss: 0.6918	Eval_GAUC: 0.6152	Eval_AUC: 0.6081	Test_loss: 0.6906
+('cost', 156.4416000843048, 'best_auc', 0.6151509823241476)
+BATCH_NOR_Epoch 0 Global_step 3000	Train_loss: 0.6888	Eval_GAUC: 0.6582	Eval_AUC: 0.6285	Test_loss: 0.6872
+('cost', 224.95515990257263, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 4000	Train_loss: 0.6865	Eval_GAUC: 0.6310	Eval_AUC: 0.6268	Test_loss: 0.6870
+('cost', 282.2312259674072, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 5000	Train_loss: 0.6843	Eval_GAUC: 0.6306	Eval_AUC: 0.6304	Test_loss: 0.6849
+('cost', 341.2031080722809, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 6000	Train_loss: 0.6817	Eval_GAUC: 0.6363	Eval_AUC: 0.6364	Test_loss: 0.6822
+('cost', 401.6606230735779, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 7000	Train_loss: 0.6800	Eval_GAUC: 0.6401	Eval_AUC: 0.6390	Test_loss: 0.6809
+('cost', 465.30878806114197, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 8000	Train_loss: 0.6778	Eval_GAUC: 0.6402	Eval_AUC: 0.6399	Test_loss: 0.6814
+('cost', 526.296660900116, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 9000	Train_loss: 0.6755	Eval_GAUC: 0.6398	Eval_AUC: 0.6403	Test_loss: 0.6821
+('cost', 586.4988689422607, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 10000	Train_loss: 0.6744	Eval_GAUC: 0.6341	Eval_AUC: 0.6370	Test_loss: 0.6784
+('cost', 645.7397010326385, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 11000	Train_loss: 0.6732	Eval_GAUC: 0.6379	Eval_AUC: 0.6397	Test_loss: 0.6757
+('cost', 703.5127680301666, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 12000	Train_loss: 0.6711	Eval_GAUC: 0.6414	Eval_AUC: 0.6428	Test_loss: 0.6745
+('cost', 761.5636579990387, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 13000	Train_loss: 0.6698	Eval_GAUC: 0.6348	Eval_AUC: 0.6374	Test_loss: 0.6749
+('cost', 819.3092329502106, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 14000	Train_loss: 0.6684	Eval_GAUC: 0.6409	Eval_AUC: 0.6446	Test_loss: 0.6724
+('cost', 877.9833369255066, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 15000	Train_loss: 0.6664	Eval_GAUC: 0.6501	Eval_AUC: 0.6501	Test_loss: 0.6710
+('cost', 935.1860918998718, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 16000	Train_loss: 0.6656	Eval_GAUC: 0.6462	Eval_AUC: 0.6484	Test_loss: 0.6715
+('cost', 992.9217178821564, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 17000	Train_loss: 0.6644	Eval_GAUC: 0.6468	Eval_AUC: 0.6484	Test_loss: 0.6694
+('cost', 1050.9172348976135, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 18000	Train_loss: 0.6620	Eval_GAUC: 0.6475	Eval_AUC: 0.6486	Test_loss: 0.6723
+('cost', 1109.2797899246216, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 19000	Train_loss: 0.6610	Eval_GAUC: 0.6475	Eval_AUC: 0.6460	Test_loss: 0.6687
+('cost', 1168.2064609527588, 'best_auc', 0.6582157072463811)
+BATCH_NOR_Epoch 0 Global_step 20000	Train_loss: 0.6593	Eval_GAUC: 0.6603	Eval_AUC: 0.6624	Test_loss: 0.6657
+('cost', 1240.2592098712921, 'best_auc', 0.6603257828850552)
+BATCH_NOR_Epoch 0 Global_step 21000	Train_loss: 0.6461	Eval_GAUC: 0.6712	Eval_AUC: 0.6748	Test_loss: 0.6521
+('cost', 1317.1777040958405, 'best_auc', 0.6712118547569904)
+BATCH_NOR_Epoch 0 Global_step 22000	Train_loss: 0.6338	Eval_GAUC: 0.6747	Eval_AUC: 0.6808	Test_loss: 0.6452
+('cost', 1391.4087340831757, 'best_auc', 0.6746647058302445)
+BATCH_NOR_Epoch 0 Global_step 23000	Train_loss: 0.6344	Eval_GAUC: 0.6753	Eval_AUC: 0.6836	Test_loss: 0.6466
+('cost', 1467.7548360824585, 'best_auc', 0.6753041226668307)
+BATCH_NOR_Epoch 0 Global_step 24000	Train_loss: 0.6294	Eval_GAUC: 0.6777	Eval_AUC: 0.6834	Test_loss: 0.6476
+('cost', 1542.4328699111938, 'best_auc', 0.6777179212672484)
+BATCH_NOR_Epoch 0 Global_step 25000	Train_loss: 0.6284	Eval_GAUC: 0.6937	Eval_AUC: 0.6938	Test_loss: 0.6394
+('cost', 1617.9283590316772, 'best_auc', 0.6937193279843223)
+BATCH_NOR_Epoch 0 Global_step 26000	Train_loss: 0.6266	Eval_GAUC: 0.6940	Eval_AUC: 0.7033	Test_loss: 0.6361
+('cost', 1693.797933101654, 'best_auc', 0.6939910801615955)
+BATCH_NOR_Epoch 0 Global_step 27000	Train_loss: 0.6244	Eval_GAUC: 0.7020	Eval_AUC: 0.7132	Test_loss: 0.6225
+('cost', 1769.0089230537415, 'best_auc', 0.7020477324241602)
+BATCH_NOR_Epoch 0 Global_step 28000	Train_loss: 0.6063	Eval_GAUC: 0.7333	Eval_AUC: 0.7438	Test_loss: 0.6030
+('cost', 1845.4040610790253, 'best_auc', 0.7333312019247711)
+BATCH_NOR_Epoch 0 Global_step 29000	Train_loss: 0.5849	Eval_GAUC: 0.7515	Eval_AUC: 0.7604	Test_loss: 0.5908
+('cost', 1921.8692200183868, 'best_auc', 0.7514586696713252)
+BATCH_NOR_Epoch 0 Global_step 30000	Train_loss: 0.5776	Eval_GAUC: 0.7482	Eval_AUC: 0.7572	Test_loss: 0.5888
+('cost', 1982.2061870098114, 'best_auc', 0.7514586696713252)
+BATCH_NOR_Epoch 0 Global_step 31000	Train_loss: 0.5716	Eval_GAUC: 0.7441	Eval_AUC: 0.7526	Test_loss: 0.5919
+('cost', 2042.4727640151978, 'best_auc', 0.7514586696713252)
+BATCH_NOR_Epoch 0 Global_step 32000	Train_loss: 0.5631	Eval_GAUC: 0.7176	Eval_AUC: 0.7274	Test_loss: 0.6121
+('cost', 2100.9557139873505, 'best_auc', 0.7514586696713252)
+BATCH_NOR_Epoch 0 Global_step 33000	Train_loss: 0.5600	Eval_GAUC: 0.7529	Eval_AUC: 0.7685	Test_loss: 0.5763
+('cost', 2175.4598820209503, 'best_auc', 0.752865386763457)
+BATCH_NOR_Epoch 0 Global_step 34000	Train_loss: 0.5584	Eval_GAUC: 0.7561	Eval_AUC: 0.7714	Test_loss: 0.5865
+('cost', 2249.0910198688507, 'best_auc', 0.7561104273169897)
+BATCH_NOR_Epoch 0 Global_step 35000	Train_loss: 0.5505	Eval_GAUC: 0.7577	Eval_AUC: 0.7781	Test_loss: 0.5653
+('cost', 2323.589336872101, 'best_auc', 0.7576929840100269)
+BATCH_NOR_Epoch 0 Global_step 36000	Train_loss: 0.5447	Eval_GAUC: 0.7679	Eval_AUC: 0.7850	Test_loss: 0.5634
+('cost', 2397.206458091736, 'best_auc', 0.7678597119084073)
+Epoch 0 DONE	Cost time: 2406.32
+BATCH_NOR_Epoch 1 Global_step 37000	Train_loss: 0.4157	Eval_GAUC: 0.7978	Eval_AUC: 0.8032	Test_loss: 0.5476
+('cost', 2472.436336994171, 'best_auc', 0.7977524497743889)
+BATCH_NOR_Epoch 1 Global_step 38000	Train_loss: 0.5249	Eval_GAUC: 0.7916	Eval_AUC: 0.8040	Test_loss: 0.5426
+('cost', 2531.683669090271, 'best_auc', 0.7977524497743889)
+BATCH_NOR_Epoch 1 Global_step 39000	Train_loss: 0.5273	Eval_GAUC: 0.7909	Eval_AUC: 0.8040	Test_loss: 0.5439
+('cost', 2590.907392978668, 'best_auc', 0.7977524497743889)
+BATCH_NOR_Epoch 1 Global_step 40000	Train_loss: 0.5245	Eval_GAUC: 0.8191	Eval_AUC: 0.8280	Test_loss: 0.5223
+('cost', 2665.8361229896545, 'best_auc', 0.8191249580468444)
+BATCH_NOR_Epoch 1 Global_step 41000	Train_loss: 0.5219	Eval_GAUC: 0.8063	Eval_AUC: 0.8155	Test_loss: 0.5217
+('cost', 2726.4332690238953, 'best_auc', 0.8191249580468444)
+BATCH_NOR_Epoch 1 Global_step 42000	Train_loss: 0.5170	Eval_GAUC: 0.8209	Eval_AUC: 0.8316	Test_loss: 0.5125
+('cost', 2801.2545540332794, 'best_auc', 0.8208833544170113)
+BATCH_NOR_Epoch 1 Global_step 43000	Train_loss: 0.5114	Eval_GAUC: 0.8177	Eval_AUC: 0.8272	Test_loss: 0.5065
+('cost', 2860.4832220077515, 'best_auc', 0.8208833544170113)
+BATCH_NOR_Epoch 1 Global_step 44000	Train_loss: 0.5117	Eval_GAUC: 0.8325	Eval_AUC: 0.8396	Test_loss: 0.5006
+('cost', 2937.1824419498444, 'best_auc', 0.8324727848412057)
+BATCH_NOR_Epoch 1 Global_step 45000	Train_loss: 0.5097	Eval_GAUC: 0.8479	Eval_AUC: 0.8570	Test_loss: 0.4806
+('cost', 3011.2129380702972, 'best_auc', 0.8479306872494681)
+BATCH_NOR_Epoch 1 Global_step 46000	Train_loss: 0.5028	Eval_GAUC: 0.8416	Eval_AUC: 0.8564	Test_loss: 0.4846
+('cost', 3072.7690069675446, 'best_auc', 0.8479306872494681)
+BATCH_NOR_Epoch 1 Global_step 47000	Train_loss: 0.5062	Eval_GAUC: 0.8607	Eval_AUC: 0.8670	Test_loss: 0.4756
+('cost', 3149.188726902008, 'best_auc', 0.8606870534282542)
+BATCH_NOR_Epoch 1 Global_step 48000	Train_loss: 0.5037	Eval_GAUC: 0.8406	Eval_AUC: 0.8513	Test_loss: 0.4952
+('cost', 3209.2620890140533, 'best_auc', 0.8606870534282542)
+BATCH_NOR_Epoch 1 Global_step 49000	Train_loss: 0.5028	Eval_GAUC: 0.8565	Eval_AUC: 0.8596	Test_loss: 0.4764
+('cost', 3269.5847408771515, 'best_auc', 0.8606870534282542)
+BATCH_NOR_Epoch 1 Global_step 50000	Train_loss: 0.5069	Eval_GAUC: 0.8455	Eval_AUC: 0.8556	Test_loss: 0.4833
+('cost', 3328.646838903427, 'best_auc', 0.8606870534282542)
+BATCH_NOR_Epoch 1 Global_step 51000	Train_loss: 0.5011	Eval_GAUC: 0.8544	Eval_AUC: 0.8614	Test_loss: 0.4788
+('cost', 3387.8427000045776, 'best_auc', 0.8606870534282542)
+BATCH_NOR_Epoch 1 Global_step 52000	Train_loss: 0.4960	Eval_GAUC: 0.8792	Eval_AUC: 0.8836	Test_loss: 0.4811
+('cost', 3465.137538909912, 'best_auc', 0.8791662004461739)
+BATCH_NOR_Epoch 1 Global_step 53000	Train_loss: 0.4969	Eval_GAUC: 0.8725	Eval_AUC: 0.8817	Test_loss: 0.4595
+('cost', 3524.441973924637, 'best_auc', 0.8791662004461739)
+BATCH_NOR_Epoch 1 Global_step 54000	Train_loss: 0.4928	Eval_GAUC: 0.8922	Eval_AUC: 0.9003	Test_loss: 0.4291
+('cost', 3602.576292037964, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 55000	Train_loss: 0.4966	Eval_GAUC: 0.8706	Eval_AUC: 0.8778	Test_loss: 0.4464
+('cost', 3664.147612094879, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 56000	Train_loss: 0.4950	Eval_GAUC: 0.8737	Eval_AUC: 0.8786	Test_loss: 0.4535
+('cost', 3724.3583478927612, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 57000	Train_loss: 0.4893	Eval_GAUC: 0.8774	Eval_AUC: 0.8823	Test_loss: 0.4627
+('cost', 3784.2059218883514, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 58000	Train_loss: 0.4895	Eval_GAUC: 0.8802	Eval_AUC: 0.8868	Test_loss: 0.4456
+('cost', 3846.391653060913, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 59000	Train_loss: 0.4902	Eval_GAUC: 0.8795	Eval_AUC: 0.8857	Test_loss: 0.4416
+('cost', 3909.2148830890656, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 60000	Train_loss: 0.4824	Eval_GAUC: 0.8868	Eval_AUC: 0.8924	Test_loss: 0.4424
+('cost', 3970.832060098648, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 61000	Train_loss: 0.4881	Eval_GAUC: 0.8854	Eval_AUC: 0.8923	Test_loss: 0.4287
+('cost', 4031.855861902237, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 62000	Train_loss: 0.4858	Eval_GAUC: 0.8810	Eval_AUC: 0.8878	Test_loss: 0.4641
+('cost', 4094.0398139953613, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 63000	Train_loss: 0.4874	Eval_GAUC: 0.8818	Eval_AUC: 0.8892	Test_loss: 0.4480
+('cost', 4156.2302939891815, 'best_auc', 0.8921783333352028)
+BATCH_NOR_Epoch 1 Global_step 64000	Train_loss: 0.4790	Eval_GAUC: 0.9063	Eval_AUC: 0.9127	Test_loss: 0.4191
+('cost', 4233.349463939667, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 65000	Train_loss: 0.4847	Eval_GAUC: 0.8941	Eval_AUC: 0.8998	Test_loss: 0.4427
+('cost', 4293.445147037506, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 66000	Train_loss: 0.4828	Eval_GAUC: 0.8782	Eval_AUC: 0.8862	Test_loss: 0.4569
+('cost', 4353.441252946854, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 67000	Train_loss: 0.4821	Eval_GAUC: 0.8955	Eval_AUC: 0.9018	Test_loss: 0.4256
+('cost', 4414.594440937042, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 68000	Train_loss: 0.4903	Eval_GAUC: 0.8865	Eval_AUC: 0.8952	Test_loss: 0.4285
+('cost', 4474.233108997345, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 69000	Train_loss: 0.4809	Eval_GAUC: 0.8914	Eval_AUC: 0.8963	Test_loss: 0.4378
+('cost', 4533.991972923279, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 70000	Train_loss: 0.4819	Eval_GAUC: 0.8972	Eval_AUC: 0.9045	Test_loss: 0.4323
+('cost', 4593.755659103394, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 71000	Train_loss: 0.4777	Eval_GAUC: 0.9053	Eval_AUC: 0.9092	Test_loss: 0.4130
+('cost', 4654.06845498085, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 1 Global_step 72000	Train_loss: 0.4854	Eval_GAUC: 0.9014	Eval_AUC: 0.9056	Test_loss: 0.4265
+('cost', 4713.436137914658, 'best_auc', 0.906309445803547)
+Epoch 1 DONE	Cost time: 4731.53
+BATCH_NOR_Epoch 2 Global_step 73000	Train_loss: 0.2569	Eval_GAUC: 0.8997	Eval_AUC: 0.9038	Test_loss: 0.4177
+('cost', 4772.964240074158, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 74000	Train_loss: 0.4647	Eval_GAUC: 0.9045	Eval_AUC: 0.9077	Test_loss: 0.4213
+('cost', 4833.741034030914, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 75000	Train_loss: 0.4638	Eval_GAUC: 0.8985	Eval_AUC: 0.9015	Test_loss: 0.4382
+('cost', 4893.510462999344, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 76000	Train_loss: 0.4658	Eval_GAUC: 0.8986	Eval_AUC: 0.9035	Test_loss: 0.4095
+('cost', 4953.259774923325, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 77000	Train_loss: 0.4652	Eval_GAUC: 0.8890	Eval_AUC: 0.8952	Test_loss: 0.4288
+('cost', 5011.282346010208, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 78000	Train_loss: 0.4666	Eval_GAUC: 0.8836	Eval_AUC: 0.8902	Test_loss: 0.4264
+('cost', 5069.965768098831, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 79000	Train_loss: 0.4629	Eval_GAUC: 0.9038	Eval_AUC: 0.9076	Test_loss: 0.4176
+('cost', 5129.810299873352, 'best_auc', 0.906309445803547)
+BATCH_NOR_Epoch 2 Global_step 80000	Train_loss: 0.4558	Eval_GAUC: 0.9150	Eval_AUC: 0.9193	Test_loss: 0.3808
+('cost', 5209.814421892166, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 81000	Train_loss: 0.4578	Eval_GAUC: 0.9075	Eval_AUC: 0.9118	Test_loss: 0.4080
+('cost', 5270.005596876144, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 82000	Train_loss: 0.4644	Eval_GAUC: 0.9125	Eval_AUC: 0.9184	Test_loss: 0.4012
+('cost', 5330.574972867966, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 83000	Train_loss: 0.4627	Eval_GAUC: 0.9065	Eval_AUC: 0.9130	Test_loss: 0.4034
+('cost', 5390.360116004944, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 84000	Train_loss: 0.4580	Eval_GAUC: 0.9006	Eval_AUC: 0.9051	Test_loss: 0.4191
+('cost', 5450.463995933533, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 85000	Train_loss: 0.4529	Eval_GAUC: 0.9095	Eval_AUC: 0.9131	Test_loss: 0.4090
+('cost', 5511.07078909874, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 86000	Train_loss: 0.4435	Eval_GAUC: 0.9067	Eval_AUC: 0.9092	Test_loss: 0.3939
+('cost', 5572.3263149261475, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 87000	Train_loss: 0.4421	Eval_GAUC: 0.9086	Eval_AUC: 0.9140	Test_loss: 0.3895
+('cost', 5632.825829982758, 'best_auc', 0.9150055150036952)
+BATCH_NOR_Epoch 2 Global_step 88000	Train_loss: 0.4463	Eval_GAUC: 0.9291	Eval_AUC: 0.9333	Test_loss: 0.3736
+('cost', 5713.640706062317, 'best_auc', 0.9291366273681837)
+BATCH_NOR_Epoch 2 Global_step 89000	Train_loss: 0.4452	Eval_GAUC: 0.9097	Eval_AUC: 0.9112	Test_loss: 0.4022
+('cost', 5775.351660966873, 'best_auc', 0.9291366273681837)
+BATCH_NOR_Epoch 2 Global_step 90000	Train_loss: 0.4402	Eval_GAUC: 0.9089	Eval_AUC: 0.9133	Test_loss: 0.4119
+('cost', 5837.583401918411, 'best_auc', 0.9291366273681837)
+BATCH_NOR_Epoch 2 Global_step 91000	Train_loss: 0.4338	Eval_GAUC: 0.9300	Eval_AUC: 0.9338	Test_loss: 0.3574
+('cost', 5916.376867055893, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 92000	Train_loss: 0.4376	Eval_GAUC: 0.9194	Eval_AUC: 0.9230	Test_loss: 0.3814
+('cost', 5976.6398339271545, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 93000	Train_loss: 0.4356	Eval_GAUC: 0.9174	Eval_AUC: 0.9221	Test_loss: 0.3730
+('cost', 6037.269543886185, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 94000	Train_loss: 0.4362	Eval_GAUC: 0.9196	Eval_AUC: 0.9244	Test_loss: 0.3981
+('cost', 6097.325613975525, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 95000	Train_loss: 0.4299	Eval_GAUC: 0.9205	Eval_AUC: 0.9276	Test_loss: 0.3690
+('cost', 6159.653632879257, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 96000	Train_loss: 0.4316	Eval_GAUC: 0.9118	Eval_AUC: 0.9191	Test_loss: 0.4061
+('cost', 6221.277980089188, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 97000	Train_loss: 0.4275	Eval_GAUC: 0.9053	Eval_AUC: 0.9091	Test_loss: 0.4234
+('cost', 6282.637978076935, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 98000	Train_loss: 0.4221	Eval_GAUC: 0.9143	Eval_AUC: 0.9191	Test_loss: 0.3748
+('cost', 6343.217087984085, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 99000	Train_loss: 0.4266	Eval_GAUC: 0.9289	Eval_AUC: 0.9341	Test_loss: 0.3587
+('cost', 6403.8893439769745, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 100000	Train_loss: 0.4291	Eval_GAUC: 0.9223	Eval_AUC: 0.9294	Test_loss: 0.3536
+('cost', 6463.1560270786285, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 101000	Train_loss: 0.4256	Eval_GAUC: 0.9117	Eval_AUC: 0.9197	Test_loss: 0.3792
+('cost', 6522.396665096283, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 102000	Train_loss: 0.4213	Eval_GAUC: 0.9133	Eval_AUC: 0.9203	Test_loss: 0.3812
+('cost', 6582.016544103622, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 103000	Train_loss: 0.4184	Eval_GAUC: 0.9161	Eval_AUC: 0.9216	Test_loss: 0.3820
+('cost', 6642.45868396759, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 104000	Train_loss: 0.4191	Eval_GAUC: 0.9131	Eval_AUC: 0.9186	Test_loss: 0.3770
+('cost', 6702.616678953171, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 105000	Train_loss: 0.4188	Eval_GAUC: 0.9148	Eval_AUC: 0.9213	Test_loss: 0.3634
+('cost', 6762.111371040344, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 106000	Train_loss: 0.4145	Eval_GAUC: 0.9234	Eval_AUC: 0.9278	Test_loss: 0.3823
+('cost', 6823.015594005585, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 107000	Train_loss: 0.4145	Eval_GAUC: 0.9258	Eval_AUC: 0.9317	Test_loss: 0.3693
+('cost', 6885.734204053879, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 2 Global_step 108000	Train_loss: 0.4082	Eval_GAUC: 0.9278	Eval_AUC: 0.9314	Test_loss: 0.3589
+('cost', 6945.351716041565, 'best_auc', 0.930047796397288)
+Epoch 2 DONE	Cost time: 6971.99
+BATCH_NOR_Epoch 3 Global_step 109000	Train_loss: 0.1241	Eval_GAUC: 0.9260	Eval_AUC: 0.9311	Test_loss: 0.3510
+('cost', 7004.615869045258, 'best_auc', 0.930047796397288)
+BATCH_NOR_Epoch 3 Global_step 110000	Train_loss: 0.3788	Eval_GAUC: 0.9306	Eval_AUC: 0.9349	Test_loss: 0.3434
+('cost', 7082.368911027908, 'best_auc', 0.9306232715486911)
+BATCH_NOR_Epoch 3 Global_step 111000	Train_loss: 0.3746	Eval_GAUC: 0.9273	Eval_AUC: 0.9298	Test_loss: 0.3586
+('cost', 7142.097990036011, 'best_auc', 0.9306232715486911)
+BATCH_NOR_Epoch 3 Global_step 112000	Train_loss: 0.3794	Eval_GAUC: 0.9205	Eval_AUC: 0.9252	Test_loss: 0.3695
+('cost', 7201.687758922577, 'best_auc', 0.9306232715486911)
+BATCH_NOR_Epoch 3 Global_step 113000	Train_loss: 0.3820	Eval_GAUC: 0.9271	Eval_AUC: 0.9293	Test_loss: 0.4138
+('cost', 7260.565030097961, 'best_auc', 0.9306232715486911)
+BATCH_NOR_Epoch 3 Global_step 114000	Train_loss: 0.3784	Eval_GAUC: 0.9175	Eval_AUC: 0.9227	Test_loss: 0.3668
+('cost', 7319.5262660980225, 'best_auc', 0.9306232715486911)
+BATCH_NOR_Epoch 3 Global_step 115000	Train_loss: 0.3815	Eval_GAUC: 0.9320	Eval_AUC: 0.9340	Test_loss: 0.3392
+('cost', 7398.344784975052, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 116000	Train_loss: 0.3836	Eval_GAUC: 0.9285	Eval_AUC: 0.9323	Test_loss: 0.3360
+('cost', 7458.285254001617, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 117000	Train_loss: 0.3793	Eval_GAUC: 0.9206	Eval_AUC: 0.9264	Test_loss: 0.3651
+('cost', 7517.340889930725, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 118000	Train_loss: 0.3835	Eval_GAUC: 0.9291	Eval_AUC: 0.9326	Test_loss: 0.3489
+('cost', 7574.91633105278, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 119000	Train_loss: 0.3824	Eval_GAUC: 0.9204	Eval_AUC: 0.9243	Test_loss: 0.3626
+('cost', 7633.51299905777, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 120000	Train_loss: 0.3845	Eval_GAUC: 0.9118	Eval_AUC: 0.9190	Test_loss: 0.3851
+('cost', 7692.496960878372, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 121000	Train_loss: 0.3761	Eval_GAUC: 0.9220	Eval_AUC: 0.9245	Test_loss: 0.3675
+('cost', 7751.130775928497, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 122000	Train_loss: 0.3793	Eval_GAUC: 0.9229	Eval_AUC: 0.9277	Test_loss: 0.3509
+('cost', 7810.051492929459, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 123000	Train_loss: 0.3876	Eval_GAUC: 0.9140	Eval_AUC: 0.9220	Test_loss: 0.3646
+('cost', 7868.689452886581, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 124000	Train_loss: 0.3778	Eval_GAUC: 0.9203	Eval_AUC: 0.9271	Test_loss: 0.3585
+('cost', 7926.79056096077, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 125000	Train_loss: 0.3835	Eval_GAUC: 0.9256	Eval_AUC: 0.9311	Test_loss: 0.3616
+('cost', 7987.535403966904, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 126000	Train_loss: 0.3784	Eval_GAUC: 0.9225	Eval_AUC: 0.9274	Test_loss: 0.3667
+('cost', 8045.924053907394, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 127000	Train_loss: 0.3813	Eval_GAUC: 0.9278	Eval_AUC: 0.9256	Test_loss: 0.3587
+('cost', 8104.12529706955, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 128000	Train_loss: 0.3779	Eval_GAUC: 0.9242	Eval_AUC: 0.9282	Test_loss: 0.3654
+('cost', 8162.3579959869385, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 129000	Train_loss: 0.3795	Eval_GAUC: 0.9182	Eval_AUC: 0.9226	Test_loss: 0.3939
+('cost', 8220.620115995407, 'best_auc', 0.9319980177953728)
+BATCH_NOR_Epoch 3 Global_step 130000	Train_loss: 0.3789	Eval_GAUC: 0.9339	Eval_AUC: 0.9362	Test_loss: 0.3433
+('cost', 8297.967859983444, 'best_auc', 0.933916268381356)
+BATCH_NOR_Epoch 3 Global_step 131000	Train_loss: 0.3763	Eval_GAUC: 0.9296	Eval_AUC: 0.9351	Test_loss: 0.3415
+('cost', 8356.010180950165, 'best_auc', 0.933916268381356)
+BATCH_NOR_Epoch 3 Global_step 132000	Train_loss: 0.3753	Eval_GAUC: 0.9275	Eval_AUC: 0.9296	Test_loss: 0.3529
+('cost', 8416.159087896347, 'best_auc', 0.933916268381356)
+BATCH_NOR_Epoch 3 Global_step 133000	Train_loss: 0.3802	Eval_GAUC: 0.9339	Eval_AUC: 0.9346	Test_loss: 0.3556
+('cost', 8475.152975082397, 'best_auc', 0.933916268381356)
+BATCH_NOR_Epoch 3 Global_step 134000	Train_loss: 0.3805	Eval_GAUC: 0.9322	Eval_AUC: 0.9348	Test_loss: 0.3467
+('cost', 8533.214474916458, 'best_auc', 0.933916268381356)
+BATCH_NOR_Epoch 3 Global_step 135000	Train_loss: 0.3742	Eval_GAUC: 0.9367	Eval_AUC: 0.9406	Test_loss: 0.3381
+('cost', 8610.346926927567, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 136000	Train_loss: 0.3695	Eval_GAUC: 0.9314	Eval_AUC: 0.9356	Test_loss: 0.3433
+('cost', 8668.038429021835, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 137000	Train_loss: 0.3700	Eval_GAUC: 0.9357	Eval_AUC: 0.9398	Test_loss: 0.3300
+('cost', 8726.748246908188, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 138000	Train_loss: 0.3813	Eval_GAUC: 0.9309	Eval_AUC: 0.9344	Test_loss: 0.3448
+('cost', 8785.745537042618, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 139000	Train_loss: 0.3726	Eval_GAUC: 0.9335	Eval_AUC: 0.9358	Test_loss: 0.3374
+('cost', 8843.723044872284, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 140000	Train_loss: 0.3739	Eval_GAUC: 0.9300	Eval_AUC: 0.9321	Test_loss: 0.3502
+('cost', 8903.197306871414, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 141000	Train_loss: 0.3720	Eval_GAUC: 0.9288	Eval_AUC: 0.9334	Test_loss: 0.3400
+('cost', 8960.522922992706, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 142000	Train_loss: 0.3723	Eval_GAUC: 0.9348	Eval_AUC: 0.9383	Test_loss: 0.3484
+('cost', 9018.469335079193, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 143000	Train_loss: 0.3733	Eval_GAUC: 0.9326	Eval_AUC: 0.9365	Test_loss: 0.3331
+('cost', 9076.538790941238, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 3 Global_step 144000	Train_loss: 0.3690	Eval_GAUC: 0.9334	Eval_AUC: 0.9365	Test_loss: 0.3291
+('cost', 9135.641128063202, 'best_auc', 0.9367137170776274)
+Epoch 3 DONE	Cost time: 9172.07
+BATCH_NOR_Epoch 4 Global_step 145000	Train_loss: 0.0348	Eval_GAUC: 0.9327	Eval_AUC: 0.9358	Test_loss: 0.3273
+('cost', 9195.498167037964, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 4 Global_step 146000	Train_loss: 0.3137	Eval_GAUC: 0.9356	Eval_AUC: 0.9397	Test_loss: 0.3260
+('cost', 9253.351871013641, 'best_auc', 0.9367137170776274)
+BATCH_NOR_Epoch 4 Global_step 147000	Train_loss: 0.3159	Eval_GAUC: 0.9459	Eval_AUC: 0.9487	Test_loss: 0.2967
+('cost', 9333.905746936798, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 148000	Train_loss: 0.3240	Eval_GAUC: 0.9370	Eval_AUC: 0.9414	Test_loss: 0.3294
+('cost', 9391.967026948929, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 149000	Train_loss: 0.3306	Eval_GAUC: 0.9342	Eval_AUC: 0.9381	Test_loss: 0.3364
+('cost', 9450.884802103043, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 150000	Train_loss: 0.3234	Eval_GAUC: 0.9419	Eval_AUC: 0.9447	Test_loss: 0.3385
+('cost', 9508.4416680336, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 151000	Train_loss: 0.3293	Eval_GAUC: 0.9225	Eval_AUC: 0.9272	Test_loss: 0.3623
+('cost', 9565.310335874557, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 152000	Train_loss: 0.3374	Eval_GAUC: 0.9209	Eval_AUC: 0.9235	Test_loss: 0.3614
+('cost', 9623.23227596283, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 153000	Train_loss: 0.3336	Eval_GAUC: 0.9388	Eval_AUC: 0.9407	Test_loss: 0.3263
+('cost', 9681.341985940933, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 154000	Train_loss: 0.3342	Eval_GAUC: 0.9298	Eval_AUC: 0.9352	Test_loss: 0.3406
+('cost', 9739.78766298294, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 155000	Train_loss: 0.3356	Eval_GAUC: 0.9287	Eval_AUC: 0.9342	Test_loss: 0.3484
+('cost', 9797.969425916672, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 156000	Train_loss: 0.3355	Eval_GAUC: 0.9406	Eval_AUC: 0.9441	Test_loss: 0.3328
+('cost', 9856.401463031769, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 157000	Train_loss: 0.3362	Eval_GAUC: 0.9381	Eval_AUC: 0.9416	Test_loss: 0.3424
+('cost', 9914.638752937317, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 158000	Train_loss: 0.3380	Eval_GAUC: 0.9269	Eval_AUC: 0.9325	Test_loss: 0.3527
+('cost', 9974.793499946594, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 159000	Train_loss: 0.3422	Eval_GAUC: 0.9257	Eval_AUC: 0.9307	Test_loss: 0.3561
+('cost', 10033.64671587944, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 160000	Train_loss: 0.3356	Eval_GAUC: 0.9276	Eval_AUC: 0.9309	Test_loss: 0.3664
+('cost', 10092.94173002243, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 161000	Train_loss: 0.3373	Eval_GAUC: 0.9258	Eval_AUC: 0.9307	Test_loss: 0.3546
+('cost', 10151.799259901047, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 162000	Train_loss: 0.3384	Eval_GAUC: 0.9199	Eval_AUC: 0.9250	Test_loss: 0.3523
+('cost', 10210.818846940994, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 163000	Train_loss: 0.3432	Eval_GAUC: 0.9280	Eval_AUC: 0.9319	Test_loss: 0.3521
+('cost', 10269.6075360775, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 164000	Train_loss: 0.3362	Eval_GAUC: 0.9285	Eval_AUC: 0.9335	Test_loss: 0.3443
+('cost', 10327.392414093018, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 165000	Train_loss: 0.3377	Eval_GAUC: 0.9263	Eval_AUC: 0.9301	Test_loss: 0.3489
+('cost', 10385.721742868423, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 166000	Train_loss: 0.3448	Eval_GAUC: 0.9209	Eval_AUC: 0.9249	Test_loss: 0.3665
+('cost', 10446.39748096466, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 167000	Train_loss: 0.3426	Eval_GAUC: 0.9244	Eval_AUC: 0.9293	Test_loss: 0.3645
+('cost', 10505.018121957779, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 168000	Train_loss: 0.3406	Eval_GAUC: 0.9266	Eval_AUC: 0.9310	Test_loss: 0.3536
+('cost', 10564.773128032684, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 169000	Train_loss: 0.3393	Eval_GAUC: 0.9373	Eval_AUC: 0.9390	Test_loss: 0.3433
+('cost', 10622.964442014694, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 170000	Train_loss: 0.3389	Eval_GAUC: 0.9293	Eval_AUC: 0.9333	Test_loss: 0.3422
+('cost', 10681.334115982056, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 171000	Train_loss: 0.3460	Eval_GAUC: 0.9268	Eval_AUC: 0.9311	Test_loss: 0.3375
+('cost', 10739.414298057556, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 172000	Train_loss: 0.3413	Eval_GAUC: 0.9321	Eval_AUC: 0.9366	Test_loss: 0.3434
+('cost', 10797.494730949402, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 173000	Train_loss: 0.3437	Eval_GAUC: 0.9327	Eval_AUC: 0.9359	Test_loss: 0.3280
+('cost', 10856.913057088852, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 174000	Train_loss: 0.3425	Eval_GAUC: 0.9271	Eval_AUC: 0.9315	Test_loss: 0.3420
+('cost', 10917.40248298645, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 175000	Train_loss: 0.3455	Eval_GAUC: 0.9383	Eval_AUC: 0.9400	Test_loss: 0.3230
+('cost', 10976.390568971634, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 176000	Train_loss: 0.3439	Eval_GAUC: 0.9299	Eval_AUC: 0.9337	Test_loss: 0.3373
+('cost', 11035.047316074371, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 177000	Train_loss: 0.3378	Eval_GAUC: 0.9290	Eval_AUC: 0.9329	Test_loss: 0.3538
+('cost', 11093.776338100433, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 178000	Train_loss: 0.3393	Eval_GAUC: 0.9253	Eval_AUC: 0.9297	Test_loss: 0.3479
+('cost', 11152.814851999283, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 179000	Train_loss: 0.3476	Eval_GAUC: 0.9295	Eval_AUC: 0.9337	Test_loss: 0.3400
+('cost', 11211.128881931305, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 180000	Train_loss: 0.3461	Eval_GAUC: 0.9317	Eval_AUC: 0.9338	Test_loss: 0.3386
+('cost', 11269.801480054855, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 4 Global_step 181000	Train_loss: 0.3461	Eval_GAUC: 0.9214	Eval_AUC: 0.9259	Test_loss: 0.3617
+('cost', 11328.544967889786, 'best_auc', 0.945889348916649)
+Epoch 4 DONE	Cost time: 11333.06
+BATCH_NOR_Epoch 5 Global_step 182000	Train_loss: 0.2545	Eval_GAUC: 0.9366	Eval_AUC: 0.9403	Test_loss: 0.3442
+('cost', 11389.770273923874, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 183000	Train_loss: 0.2867	Eval_GAUC: 0.9428	Eval_AUC: 0.9461	Test_loss: 0.3304
+('cost', 11447.868084907532, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 184000	Train_loss: 0.2887	Eval_GAUC: 0.9435	Eval_AUC: 0.9464	Test_loss: 0.3114
+('cost', 11506.03010892868, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 185000	Train_loss: 0.2872	Eval_GAUC: 0.9362	Eval_AUC: 0.9404	Test_loss: 0.3483
+('cost', 11564.54146695137, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 186000	Train_loss: 0.2937	Eval_GAUC: 0.9372	Eval_AUC: 0.9406	Test_loss: 0.3221
+('cost', 11621.95225906372, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 187000	Train_loss: 0.2996	Eval_GAUC: 0.9275	Eval_AUC: 0.9317	Test_loss: 0.3437
+('cost', 11679.03216600418, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 188000	Train_loss: 0.3028	Eval_GAUC: 0.9258	Eval_AUC: 0.9297	Test_loss: 0.3523
+('cost', 11736.783483028412, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 189000	Train_loss: 0.3024	Eval_GAUC: 0.9373	Eval_AUC: 0.9401	Test_loss: 0.3652
+('cost', 11793.761775016785, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 190000	Train_loss: 0.3012	Eval_GAUC: 0.9241	Eval_AUC: 0.9299	Test_loss: 0.3528
+('cost', 11853.330938100815, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 191000	Train_loss: 0.3091	Eval_GAUC: 0.9231	Eval_AUC: 0.9298	Test_loss: 0.3582
+('cost', 11911.493212938309, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 192000	Train_loss: 0.3085	Eval_GAUC: 0.9268	Eval_AUC: 0.9303	Test_loss: 0.3552
+('cost', 11969.717943906784, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 193000	Train_loss: 0.3148	Eval_GAUC: 0.9311	Eval_AUC: 0.9362	Test_loss: 0.3456
+('cost', 12028.084420919418, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 194000	Train_loss: 0.3085	Eval_GAUC: 0.9354	Eval_AUC: 0.9387	Test_loss: 0.3547
+('cost', 12092.701318025589, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 195000	Train_loss: 0.3137	Eval_GAUC: 0.9295	Eval_AUC: 0.9344	Test_loss: 0.3389
+('cost', 12160.87112903595, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 196000	Train_loss: 0.3113	Eval_GAUC: 0.9359	Eval_AUC: 0.9381	Test_loss: 0.3381
+('cost', 12227.745887994766, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 197000	Train_loss: 0.3082	Eval_GAUC: 0.9273	Eval_AUC: 0.9308	Test_loss: 0.3566
+('cost', 12294.281430959702, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 198000	Train_loss: 0.3182	Eval_GAUC: 0.9296	Eval_AUC: 0.9318	Test_loss: 0.3419
+('cost', 12362.742727041245, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 199000	Train_loss: 0.3100	Eval_GAUC: 0.9353	Eval_AUC: 0.9365	Test_loss: 0.3638
+('cost', 12427.591897010803, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 200000	Train_loss: 0.3140	Eval_GAUC: 0.9246	Eval_AUC: 0.9282	Test_loss: 0.3505
+('cost', 12492.065710067749, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 201000	Train_loss: 0.3155	Eval_GAUC: 0.9215	Eval_AUC: 0.9260	Test_loss: 0.3916
+('cost', 12556.845537900925, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 202000	Train_loss: 0.3201	Eval_GAUC: 0.9243	Eval_AUC: 0.9288	Test_loss: 0.3564
+('cost', 12620.712256908417, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 203000	Train_loss: 0.3167	Eval_GAUC: 0.9370	Eval_AUC: 0.9414	Test_loss: 0.3370
+('cost', 12679.097752094269, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 204000	Train_loss: 0.3186	Eval_GAUC: 0.9351	Eval_AUC: 0.9386	Test_loss: 0.3244
+('cost', 12736.981591939926, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 205000	Train_loss: 0.3234	Eval_GAUC: 0.9292	Eval_AUC: 0.9325	Test_loss: 0.3654
+('cost', 12795.586354017258, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 206000	Train_loss: 0.3178	Eval_GAUC: 0.9214	Eval_AUC: 0.9266	Test_loss: 0.3492
+('cost', 12854.63514995575, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 207000	Train_loss: 0.3199	Eval_GAUC: 0.9275	Eval_AUC: 0.9312	Test_loss: 0.3450
+('cost', 12915.193660020828, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 208000	Train_loss: 0.3186	Eval_GAUC: 0.9215	Eval_AUC: 0.9274	Test_loss: 0.3497
+('cost', 12973.770566940308, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 209000	Train_loss: 0.3278	Eval_GAUC: 0.9327	Eval_AUC: 0.9366	Test_loss: 0.3326
+('cost', 13033.438445091248, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 210000	Train_loss: 0.3227	Eval_GAUC: 0.9254	Eval_AUC: 0.9302	Test_loss: 0.3506
+('cost', 13092.008296966553, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 211000	Train_loss: 0.3204	Eval_GAUC: 0.9326	Eval_AUC: 0.9370	Test_loss: 0.3393
+('cost', 13151.35931110382, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 212000	Train_loss: 0.3213	Eval_GAUC: 0.9243	Eval_AUC: 0.9290	Test_loss: 0.3714
+('cost', 13211.455219984055, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 213000	Train_loss: 0.3222	Eval_GAUC: 0.9273	Eval_AUC: 0.9323	Test_loss: 0.3475
+('cost', 13271.585849046707, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 214000	Train_loss: 0.3247	Eval_GAUC: 0.9271	Eval_AUC: 0.9309	Test_loss: 0.3687
+('cost', 13330.861778020859, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 215000	Train_loss: 0.3228	Eval_GAUC: 0.9268	Eval_AUC: 0.9313	Test_loss: 0.3421
+('cost', 13391.710834980011, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 216000	Train_loss: 0.3243	Eval_GAUC: 0.9222	Eval_AUC: 0.9278	Test_loss: 0.3430
+('cost', 13451.45780801773, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 5 Global_step 217000	Train_loss: 0.3223	Eval_GAUC: 0.9205	Eval_AUC: 0.9269	Test_loss: 0.3537
+('cost', 13511.309917926788, 'best_auc', 0.945889348916649)
+Epoch 5 DONE	Cost time: 13525.44
+BATCH_NOR_Epoch 6 Global_step 218000	Train_loss: 0.1793	Eval_GAUC: 0.9292	Eval_AUC: 0.9336	Test_loss: 0.3559
+('cost', 13571.599186897278, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 219000	Train_loss: 0.2740	Eval_GAUC: 0.9376	Eval_AUC: 0.9405	Test_loss: 0.3224
+('cost', 13629.94292807579, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 220000	Train_loss: 0.2761	Eval_GAUC: 0.9314	Eval_AUC: 0.9370	Test_loss: 0.3300
+('cost', 13688.749227046967, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 221000	Train_loss: 0.2771	Eval_GAUC: 0.9348	Eval_AUC: 0.9389	Test_loss: 0.3237
+('cost', 13747.234314918518, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 222000	Train_loss: 0.2758	Eval_GAUC: 0.9359	Eval_AUC: 0.9401	Test_loss: 0.3362
+('cost', 13805.528579950333, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 223000	Train_loss: 0.2778	Eval_GAUC: 0.9354	Eval_AUC: 0.9375	Test_loss: 0.3378
+('cost', 13866.397852897644, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 224000	Train_loss: 0.2841	Eval_GAUC: 0.9359	Eval_AUC: 0.9383	Test_loss: 0.3211
+('cost', 13926.4966340065, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 225000	Train_loss: 0.2783	Eval_GAUC: 0.9375	Eval_AUC: 0.9400	Test_loss: 0.3245
+('cost', 13987.963504076004, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 226000	Train_loss: 0.2847	Eval_GAUC: 0.9316	Eval_AUC: 0.9362	Test_loss: 0.3364
+('cost', 14048.393274068832, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 227000	Train_loss: 0.2862	Eval_GAUC: 0.9266	Eval_AUC: 0.9312	Test_loss: 0.3434
+('cost', 14108.209774971008, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 228000	Train_loss: 0.2896	Eval_GAUC: 0.9302	Eval_AUC: 0.9352	Test_loss: 0.3359
+('cost', 14169.330497026443, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 229000	Train_loss: 0.2911	Eval_GAUC: 0.9349	Eval_AUC: 0.9371	Test_loss: 0.3469
+('cost', 14231.288613080978, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 230000	Train_loss: 0.2945	Eval_GAUC: 0.9310	Eval_AUC: 0.9354	Test_loss: 0.3275
+('cost', 14291.597899913788, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 231000	Train_loss: 0.2963	Eval_GAUC: 0.9306	Eval_AUC: 0.9357	Test_loss: 0.3267
+('cost', 14353.783099889755, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 232000	Train_loss: 0.2908	Eval_GAUC: 0.9407	Eval_AUC: 0.9442	Test_loss: 0.3294
+('cost', 14414.26939702034, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 233000	Train_loss: 0.2947	Eval_GAUC: 0.9118	Eval_AUC: 0.9180	Test_loss: 0.4008
+('cost', 14474.386631965637, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 234000	Train_loss: 0.2989	Eval_GAUC: 0.9206	Eval_AUC: 0.9277	Test_loss: 0.3579
+('cost', 14534.990659952164, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 235000	Train_loss: 0.3003	Eval_GAUC: 0.9349	Eval_AUC: 0.9380	Test_loss: 0.3421
+('cost', 14594.255645036697, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 236000	Train_loss: 0.3024	Eval_GAUC: 0.9164	Eval_AUC: 0.9222	Test_loss: 0.3633
+('cost', 14652.90837097168, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 237000	Train_loss: 0.3030	Eval_GAUC: 0.9346	Eval_AUC: 0.9370	Test_loss: 0.3242
+('cost', 14713.023161888123, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 238000	Train_loss: 0.3034	Eval_GAUC: 0.9338	Eval_AUC: 0.9375	Test_loss: 0.3729
+('cost', 14774.61821603775, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 239000	Train_loss: 0.3066	Eval_GAUC: 0.9292	Eval_AUC: 0.9333	Test_loss: 0.3479
+('cost', 14836.249217033386, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 240000	Train_loss: 0.3015	Eval_GAUC: 0.9301	Eval_AUC: 0.9345	Test_loss: 0.3517
+('cost', 14897.216497898102, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 241000	Train_loss: 0.3030	Eval_GAUC: 0.9297	Eval_AUC: 0.9350	Test_loss: 0.3485
+('cost', 14957.892333984375, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 242000	Train_loss: 0.3089	Eval_GAUC: 0.9358	Eval_AUC: 0.9397	Test_loss: 0.3418
+('cost', 15017.916150093079, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 243000	Train_loss: 0.3078	Eval_GAUC: 0.9345	Eval_AUC: 0.9363	Test_loss: 0.3322
+('cost', 15078.539298057556, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 244000	Train_loss: 0.3057	Eval_GAUC: 0.9340	Eval_AUC: 0.9385	Test_loss: 0.3395
+('cost', 15139.071192979813, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 245000	Train_loss: 0.3079	Eval_GAUC: 0.9285	Eval_AUC: 0.9333	Test_loss: 0.3510
+('cost', 15198.737830877304, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 246000	Train_loss: 0.3055	Eval_GAUC: 0.9437	Eval_AUC: 0.9451	Test_loss: 0.3114
+('cost', 15258.9224319458, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 247000	Train_loss: 0.3038	Eval_GAUC: 0.9363	Eval_AUC: 0.9398	Test_loss: 0.3367
+('cost', 15320.62664103508, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 248000	Train_loss: 0.3058	Eval_GAUC: 0.9226	Eval_AUC: 0.9280	Test_loss: 0.3610
+('cost', 15381.772943019867, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 249000	Train_loss: 0.3127	Eval_GAUC: 0.9360	Eval_AUC: 0.9392	Test_loss: 0.3211
+('cost', 15442.423237085342, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 250000	Train_loss: 0.3142	Eval_GAUC: 0.9288	Eval_AUC: 0.9334	Test_loss: 0.3325
+('cost', 15503.178436040878, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 251000	Train_loss: 0.3091	Eval_GAUC: 0.9206	Eval_AUC: 0.9257	Test_loss: 0.3727
+('cost', 15563.086839914322, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 252000	Train_loss: 0.3088	Eval_GAUC: 0.9317	Eval_AUC: 0.9347	Test_loss: 0.3389
+('cost', 15622.785302877426, 'best_auc', 0.945889348916649)
+BATCH_NOR_Epoch 6 Global_step 253000	Train_loss: 0.3130	Eval_GAUC: 0.9237	Eval_AUC: 0.9282	Test_loss: 0.3662
+('cost', 15681.75445508957, 'best_auc', 0.945889348916649)
+Epoch 6 DONE	Cost time: 15704.18
+BATCH_NOR_Epoch 7 Global_step 254000	Train_loss: 0.1181	Eval_GAUC: 0.9460	Eval_AUC: 0.9474	Test_loss: 0.3283
+('cost', 15766.789797067642, 'best_auc', 0.9460012468199849)
+BATCH_NOR_Epoch 7 Global_step 255000	Train_loss: 0.2652	Eval_GAUC: 0.9494	Eval_AUC: 0.9507	Test_loss: 0.3169
+('cost', 15848.829009056091, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 256000	Train_loss: 0.2632	Eval_GAUC: 0.9371	Eval_AUC: 0.9399	Test_loss: 0.3509
+('cost', 15907.716753959656, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 257000	Train_loss: 0.2715	Eval_GAUC: 0.9191	Eval_AUC: 0.9240	Test_loss: 0.3855
+('cost', 15966.762511968613, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 258000	Train_loss: 0.2684	Eval_GAUC: 0.9251	Eval_AUC: 0.9297	Test_loss: 0.3658
+('cost', 16025.777589082718, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 259000	Train_loss: 0.2693	Eval_GAUC: 0.9346	Eval_AUC: 0.9365	Test_loss: 0.3344
+('cost', 16084.845943927765, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 260000	Train_loss: 0.2762	Eval_GAUC: 0.9251	Eval_AUC: 0.9303	Test_loss: 0.3753
+('cost', 16144.25492310524, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 261000	Train_loss: 0.2726	Eval_GAUC: 0.9396	Eval_AUC: 0.9415	Test_loss: 0.3242
+('cost', 16203.106498003006, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 262000	Train_loss: 0.2760	Eval_GAUC: 0.9271	Eval_AUC: 0.9303	Test_loss: 0.3537
+('cost', 16262.421648979187, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 263000	Train_loss: 0.2825	Eval_GAUC: 0.9248	Eval_AUC: 0.9293	Test_loss: 0.3495
+('cost', 16321.288646936417, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 264000	Train_loss: 0.2813	Eval_GAUC: 0.9284	Eval_AUC: 0.9328	Test_loss: 0.3740
+('cost', 16382.96074795723, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 265000	Train_loss: 0.2857	Eval_GAUC: 0.9350	Eval_AUC: 0.9380	Test_loss: 0.3260
+('cost', 16443.782943964005, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 266000	Train_loss: 0.2817	Eval_GAUC: 0.9266	Eval_AUC: 0.9321	Test_loss: 0.3543
+('cost', 16503.309944868088, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 267000	Train_loss: 0.2861	Eval_GAUC: 0.9401	Eval_AUC: 0.9419	Test_loss: 0.3426
+('cost', 16563.779377937317, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 268000	Train_loss: 0.2844	Eval_GAUC: 0.9442	Eval_AUC: 0.9461	Test_loss: 0.3315
+('cost', 16622.733941078186, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 269000	Train_loss: 0.2919	Eval_GAUC: 0.9355	Eval_AUC: 0.9387	Test_loss: 0.3232
+('cost', 16682.143424987793, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 270000	Train_loss: 0.2899	Eval_GAUC: 0.9315	Eval_AUC: 0.9364	Test_loss: 0.3552
+('cost', 16743.945161104202, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 271000	Train_loss: 0.2900	Eval_GAUC: 0.9377	Eval_AUC: 0.9410	Test_loss: 0.3173
+('cost', 16803.666208982468, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 272000	Train_loss: 0.2977	Eval_GAUC: 0.9271	Eval_AUC: 0.9305	Test_loss: 0.3953
+('cost', 16863.374823093414, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 273000	Train_loss: 0.2954	Eval_GAUC: 0.9375	Eval_AUC: 0.9409	Test_loss: 0.3452
+('cost', 16924.934237003326, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 274000	Train_loss: 0.2933	Eval_GAUC: 0.9250	Eval_AUC: 0.9298	Test_loss: 0.3434
+('cost', 16984.29969406128, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 275000	Train_loss: 0.2979	Eval_GAUC: 0.9271	Eval_AUC: 0.9309	Test_loss: 0.3565
+('cost', 17044.43232703209, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 276000	Train_loss: 0.3004	Eval_GAUC: 0.9021	Eval_AUC: 0.9076	Test_loss: 0.4207
+('cost', 17104.014403104782, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 277000	Train_loss: 0.2943	Eval_GAUC: 0.9217	Eval_AUC: 0.9265	Test_loss: 0.3590
+('cost', 17163.723494052887, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 278000	Train_loss: 0.2921	Eval_GAUC: 0.9311	Eval_AUC: 0.9339	Test_loss: 0.3352
+('cost', 17223.4839220047, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 279000	Train_loss: 0.2951	Eval_GAUC: 0.9236	Eval_AUC: 0.9285	Test_loss: 0.3616
+('cost', 17282.910572052002, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 280000	Train_loss: 0.3024	Eval_GAUC: 0.9249	Eval_AUC: 0.9285	Test_loss: 0.3560
+('cost', 17341.981940984726, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 281000	Train_loss: 0.3027	Eval_GAUC: 0.9222	Eval_AUC: 0.9267	Test_loss: 0.3513
+('cost', 17402.018110990524, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 282000	Train_loss: 0.2985	Eval_GAUC: 0.9335	Eval_AUC: 0.9365	Test_loss: 0.3267
+('cost', 17459.472096920013, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 283000	Train_loss: 0.3040	Eval_GAUC: 0.9270	Eval_AUC: 0.9302	Test_loss: 0.3485
+('cost', 17517.673958063126, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 284000	Train_loss: 0.3037	Eval_GAUC: 0.9287	Eval_AUC: 0.9332	Test_loss: 0.3610
+('cost', 17576.199519872665, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 285000	Train_loss: 0.3024	Eval_GAUC: 0.9256	Eval_AUC: 0.9309	Test_loss: 0.3710
+('cost', 17634.961463928223, 'best_auc', 0.9494221269772813)
+BATCH_NOR_Epoch 7 Global_step 286000	Train_loss: 0.3090	Eval_GAUC: 0.9199	Eval_AUC: 0.9252	Test_loss: 0.3605
+('cost', 17693.340230941772, 'best_auc', 0.9494221269772813)
