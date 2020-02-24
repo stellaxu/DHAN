@@ -5,3 +5,6 @@ We have two folders to run our codes for DHAN with DIN data generation method na
 generation method named as 'DHAN_DIEN'.
 
 The detailed code running procedure can be found on the 'README.md' file inside each folder.
+
+Python Version: 2.7
+Tensorflow Version: 1.14.0
