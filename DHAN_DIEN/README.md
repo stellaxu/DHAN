@@ -14,6 +14,7 @@ python /DHAN/generate_voc.py
 ```
 ### method 2
 Or you can use the file we uploaded, unzip the dataset_electronics.tar.gz and copy all the files in the new folder into DHAN folder.
+
 When you see the files below, you can do the next work.
 
 * cat_voc.pkl
