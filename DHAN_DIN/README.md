@@ -13,6 +13,7 @@ python /utils/3_build_dataset.py
 ```
 ### method 2
 Or you can use the file we uploaded, unzip the dataset_electronics.tar.gz .
+
 When you see the files below, you can do the next work.
 
 * dataset.pkl
