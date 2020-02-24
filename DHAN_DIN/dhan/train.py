@@ -23,7 +23,7 @@ predict_users_num = 1000
 predict_ads_num = 100
 
 parser = argparse.ArgumentParser()
-tf.app.flags.DEFINE_string("buckets", "", "buckets info")
+tf.app.flags.DEFINE_string("buckets", "../", "buckets info")
 tf.app.flags.DEFINE_string("checkpointDir", "", "oss info")
 #tf.app.flags.DEFINE_string("logdir","","tensorboard info")
 FLAGS = tf.app.flags.FLAGS
@@ -99,8 +99,8 @@ def _eval(sess, model):
   test_gauc = auc_sum / len(test_set)
   Auc = calc_auc(score_arr)
   global best_auc
-  if best_auc < test_gauc:
-    best_auc = test_gauc
+  if best_auc < Auc:
+    best_auc = Auc
     model.save(sess, 'save_path/ckpt')
   return test_gauc, Auc
 
@@ -159,6 +159,6 @@ with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
     sys.stdout.flush()
     model.global_epoch_step_op.eval()
 
-  print('best test_gauc:', best_auc)
+  print('best test_auc:', best_auc)
   sys.stdout.flush()
 

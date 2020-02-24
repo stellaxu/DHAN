@@ -16,7 +16,7 @@ tf.set_random_seed(1234)
 train_batch_size = 32
 test_batch_size = 512
 
-with open('dataset.pkl', 'rb') as f:
+with open('../dataset.pkl', 'rb') as f:
   train_set = pickle.load(f)
   test_set = pickle.load(f)
   cate_list = pickle.load(f)
@@ -76,8 +76,8 @@ def _eval(sess, model):
   test_gauc = auc_sum / len(test_set)
   Auc = calc_auc(score_arr)
   global best_auc
-  if best_auc < test_gauc:
-    best_auc = test_gauc
+  if best_auc < Auc:
+    best_auc = Auc
     model.save(sess, 'save_path/ckpt')
   return test_gauc, Auc
 
@@ -89,7 +89,7 @@ with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
   sess.run(tf.global_variables_initializer())
   sess.run(tf.local_variables_initializer())
 
-  print('test_gauc: %.4f\t test_auc: %.4f' % _eval(sess, model))
+  print('test_auc: %.4f\t test_auc: %.4f' % _eval(sess, model))
   sys.stdout.flush()
   lr = 1.0
   start_time = time.time()
@@ -119,5 +119,5 @@ with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
     sys.stdout.flush()
     model.global_epoch_step_op.eval()
 
-  print('best test_gauc:', best_auc)
+  print('best test_auc:', best_auc)
   sys.stdout.flush()
