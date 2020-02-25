@@ -66,16 +66,20 @@ class Model(object):
     d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=tf.nn.sigmoid, name='f2')
     d_layer_3_i = tf.layers.dense(d_layer_2_i, 1, activation=None, name='f3')
     # wide part
-    d_layer_wide_i = tf.concat([tf.gather(u_emb, [0], axis=-1) * tf.gather(i_emb, [0], axis=-1), tf.gather(u_emb, [-1], axis=-1) * tf.gather(i_emb, [-1], axis=-1),
+    d_layer_wide_i = tf.concat([tf.gather(u_emb, [0], axis=-1) * tf.gather(i_emb, [0], axis=-1), tf.gather(u_emb, [127], axis=-1) * tf.gather(i_emb, [127], axis=-1),
                      tf.gather(u_emb, [hidden_units // 2], axis=-1) * tf.gather(i_emb, [hidden_units // 2], axis=-1)], axis=-1)
+    
+    #print('d_layer_wide_i is {}'.format(d_layer_wide_i))
+
     d_layer_wide_i = tf.layers.dense(d_layer_wide_i, 1, activation=None, name='f_wide')
     din_j = tf.concat([u_emb, j_emb], axis=-1)
     din_j = tf.layers.batch_normalization(inputs=din_j, name='b1', reuse=True)
     d_layer_1_j = tf.layers.dense(din_j, 80, activation=tf.nn.sigmoid, name='f1', reuse=True)
     d_layer_2_j = tf.layers.dense(d_layer_1_j, 40, activation=tf.nn.sigmoid, name='f2', reuse=True)
     d_layer_3_j = tf.layers.dense(d_layer_2_j, 1, activation=None, name='f3', reuse=True)
-    d_layer_wide_j = tf.concat([tf.gather(u_emb, [0], axis=-1) * tf.gather(j_emb, [0], axis=-1), tf.gather(u_emb, [-1], axis=-1) * tf.gather(j_emb, [-1], axis=-1),
+    d_layer_wide_j = tf.concat([tf.gather(u_emb, [0], axis=-1) * tf.gather(j_emb, [0], axis=-1), tf.gather(u_emb, [127], axis=-1) * tf.gather(j_emb, [127], axis=-1),
                      tf.gather(u_emb, [hidden_units // 2], axis=-1) * tf.gather(j_emb, [hidden_units // 2], axis=-1)], axis=-1)
+    #print('d_layer_wide_j is {}'.format(d_layer_wide_j))
     d_layer_wide_j = tf.layers.dense(d_layer_wide_j, 1, activation=None, name='f_wide', reuse=True)
     d_layer_3_i = tf.reshape(d_layer_3_i, [-1])
     d_layer_3_j = tf.reshape(d_layer_3_j, [-1])
@@ -153,7 +157,7 @@ class Model(object):
         self.i: uij[1],
         self.j: uij[2],
         self.hist_i: uij[3],
-        self.sl: uij[4],
+        self.sl: uij[4]
         })
     return u_auc, socre_p_and_n
 
